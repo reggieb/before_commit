@@ -51,6 +51,17 @@ Will:
 - copy files from the gem into the current location
 - run a set of commands
 
+### Outside Rails
+
+If you want to use this gem in a standalone ruby app or gem, add this to
+that app or gem's Rakefile:
+
+```ruby
+require 'before_commit'
+spec = Gem::Specification.find_by_name 'before_commit'
+load "#{spec.gem_dir}/lib/tasks/before_commit.rake"
+```
+
 ### Checks
 
 The checks are defined in `config/config.yml`. If the command defined in a
