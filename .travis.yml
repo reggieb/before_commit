@@ -1,6 +1,9 @@
 language: ruby
+cache: bundler
+
 rvm:
   - 2.2.3
+
 before_install: gem install bundler -v 1.11.2
 
 # Have this option to stop travis-ci building twice. Currently we have travis set to build both
