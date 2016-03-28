@@ -1,5 +1,7 @@
 # BeforeCommit
 
+[![Build Status](https://travis-ci.org/EnvironmentAgency/before_commit.svg?branch=master)](https://travis-ci.org/EnvironmentAgency/before_commit)
+
 A utility to provide a common set of definitions for code quality utilities
 (for example, overcommit, rubocop, scss_lint and brakeman) across multiple
 projects.
