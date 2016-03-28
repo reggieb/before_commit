@@ -99,10 +99,11 @@ run `bundle exec rake release`, which will create a git tag for the version,
 push git commits and tags, and push the `.gem` file
 to [rubygems.org](https://rubygems.org).
 
-## Contributing
+## Contributing to this project
 
-Bug reports and pull requests are welcome on GitHub at
-https://github.com/reggieb/before_commit.
+If you have an idea you'd like to contribute please log an issue.
+
+All contributions should be submitted via a pull request.
 
 ## License
 
