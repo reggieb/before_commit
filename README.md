@@ -64,6 +64,10 @@ spec = Gem::Specification.find_by_name 'before_commit'
 load "#{spec.gem_dir}/lib/tasks/before_commit.rake"
 ```
 
+Note that if bin/rails is not detected, the brakeman test will be skipped.
+However, as there isn't a way to skip in overcommit, brakeman shows as PASSED
+even though the test has not run. 
+
 ### Checks
 
 The checks are defined in `config/config.yml`. If the command defined in a
